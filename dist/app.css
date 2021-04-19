@@ -1,0 +1,29 @@
+.box {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #1C5D99;
+  text-align: center;
+}
+
+.title {
+  color: #1C5D99;
+  text-transform: uppercase;
+}
+
+.description {
+  color: #639FAB;
+}
+
+button {
+  background-color: #1C5D99;
+  color: #639FAB;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #1C5D99;
+  background-color: #639FAB;
+}

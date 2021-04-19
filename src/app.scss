@@ -1,0 +1,28 @@
+$brand_primary: #1C5D99;
+$brand_secondary: #639FAB;
+
+.box {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid $brand_primary;
+    text-align: center;
+}
+.title {
+    color: $brand_primary;
+    text-transform: uppercase;
+}
+.description {
+    color: $brand_secondary;
+}
+button {
+    background-color: $brand_primary;
+    color: $brand_secondary;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    color: $brand_primary;
+    background-color: $brand_secondary;
+}
